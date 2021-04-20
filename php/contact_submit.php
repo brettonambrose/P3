@@ -16,7 +16,7 @@
 
     mail($recipient, $subject, $message, $mailhead)
         or die("Failed.");
-    echo "<div id='confirmation_page'><video autoplay nocontrols muted loop width='100%'><source src='../video/stack_widget.mp4' type='video/mp4'></video><div id='confirmation_page_text'><span class='heading'>Thank you for contacting us!</span><p>You will be redirected back to the contact page in 5 seconds.<br>If redirection does not work, click <a href='../contact.html'>here</a>.</p></div></div>";
+    echo "<div id='confirmation_page'><video autoplay nocontrols muted width='100%'><source src='../video/stack_widget.mp4' type='video/mp4'></video><div id='confirmation_page_text'><span class='heading'>Thank you for contacting us!</span><p>You will be redirected back to the contact page in 5 seconds.<br>If redirection does not work, click <a href='../contact.html'>here</a>.</p></div></div>";
 
 ?>
 
