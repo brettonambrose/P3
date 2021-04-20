@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LAMP Stacks: Secretly Powering the Internet</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/slidein.css"> <!-- PLUGIN -->
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c28381438d.js" crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/slidein.js"></script> <!-- PLUGIN DOES NOT REQUIRE A CALL, SEE PLUGIN_RELATED/README.MD -->
+  </head>
+  <body>
+  <!-- MASTHEAD -->
+  <div id="thetop" class="masthead">
+    <nav>
+      <ul>
+        <li class="here">Home</li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+    </nav>
+    <div class="identity">
+      <div class="mast_img">
+        <img src="images/stack.png" alt="Stack logo by Brett">
+      </div>
+      <div class="mast_id">
+        <span class="title">LAMP</span>
+      </div>
+    </div>
+  </div>
+  <!-- SITE CONTENT -->
+  <div id="site">
+  <!-- SYNOPSIS GRIDS -->
+    <div id="skip_synopsis">
+      <section class="topic_grids">
+        <div class="what_img">&nbsp;</div>
+        <div class="js-slidein what_text">
+          <span class="heading">What is a LAMP Stack?</span>
+          <p class="info">LAMP is an acronym that stands for Linux, Apache, MySQL, and PHP, but there are many derivatives. The combination of these technologies creates a bundle known as a "stack." Commonly, LAMP stacks are made-up of open-source technologies. However, there are variations such as WAMP which uses Windows and MAMP on MacOS. The modularity of the stack has become popular due to its support for content management systems like WordPress. LAMP stacks provide reliability and uptime due to their modular nature making them essential for large websites with high demand. System administrators often deploy LAMP stacks due to their load-balancing features.</p>
+        </div>
+        <div class="js-slidein what_list">
+          <div class="prestige">
+            <i class="fas fa-clipboard-list"></i>
+            <span class="heading">Servers based on the LAMP Stack</span>
+            <p class="info">A number of web hosting companies have developed technologies built for the LAMP stack to improve user experience.</p>
+          </div>
+          <ul>
+            <li><a target="_blank" href="https://cpanel.net">cPanel</a></li>
+            <li><a target="_blank" href="https://www.plesk.com">Plesk</a></li>
+            <li><a target="_blank" href="https://www.directadmin.com">DirectAdmin</a></li>
+            <li><a target="_blank" href="https://aws.amazon.com/lightsail/">Lightsail</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- STACK PARTS GRID -->
+    <div id="skip_stack_parts">
+      <section class="info_grids">
+        <span class="heading info_title">What do the parts of the stack do?</span>
+        <img class="js-slidein lin_image" src="images/linux.jpg" alt="Linux">
+        <div class="js-slidein lin_text">
+          <span class="heading">Linux</span>
+          <p class="info">The operating system sits at the core of the LAMP stack. Traditionally, this is Linux (an operating system developed by Linus Torvalds in 1991.) The operating system interprets commands issued to it by other parts of the LAMP stack and allocates resources to services.</p>
+        </div>
+        <img class="js-slidein apa_image" src="images/apache.jpg" alt="Apache">
+        <div class="js-slidein apa_text">
+          <span class="heading">Apache</span>
+          <p class="info">In a traditional LAMP stack, Apache is the webserver. The webserver does the work of sending HTML to your computer that is then displayed by your brower. Apache is robust, extensible, and open-source. Countless websites have relied on it for years.</p>
+        </div>
+        <img class="js-slidein sql_image" src="images/mysql.jpg" alt="MySQL">
+        <div class="js-slidein sql_text">
+          <span class="heading">MySQL</span>
+          <p class="info">MySQL is a relational database server. In a LAMP stack, this component is responsible for storing data like user lists, passwords, or eCommerce inventory data. By using structured query language (SQL), developers have virtually unlimited ways to manipulate data in database tables.</p>
+        </div>
+        <img class="js-slidein php_image" src="images/php.jpg" alt="PHP">
+        <div class="js-slidein php_text">
+          <span class="heading">PHP</span>
+          <p class="info">Using a recursive acronym, the PHP Hypertext Processor is a general purpose scripting language that allows the webserver to interact directly with the database server. Its uses and extensibility are limitless. PHP is at the core of most interactive websites.</p>
+        </div>
+      </section>
+    </div>
+    <!-- BACK TO TOP -->
+    <div class="backtotop">
+      <a href="#thetop"><i class="fas fa-angle-double-up"></i></a>
+    </div>
+    </div>
+    <!-- END OF SITE CONTENT -->
+    <!-- FOOTER -->
+    <footer>Open Source Software makes the LAMP stack possible. You can learn more about Open Source by clicking <a target="_blank" href="https://opensource.com/resources/what-open-source">here.</a></footer>
+    </body>
+</html>

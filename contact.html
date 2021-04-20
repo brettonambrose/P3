@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LAMP Stacks: Contact</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/slidein.css"> <!-- PLUGIN -->
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c28381438d.js" crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/slidein.js"></script> <!-- PLUGIN DOES NOT REQUIRE A CALL, SEE PLUGIN_RELATED/README.MD -->
+  </head>
+  <body>
+  <!-- MASTHEAD -->
+  <div id="thetop" class="masthead">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li class="here">Contact</li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+    </nav>
+    <div class="identity">
+      <div class="mast_img">
+        <img src="images/stack.png" alt="Stack logo by Brett">
+      </div>
+      <div class="mast_id">
+        <span class="title">LAMP</span>
+      </div>
+    </div>
+  </div>
+<!-- SITE CONTENT -->
+  <div id="site">
+    <div id="contact_page">
+        <div class="contact_form">
+            <span class="heading">Drop us a line...</span>
+            <form method="post" action="php/contact_submit.php">
+                <div id="form_grid_master">
+                    <div id="form_dummy_1">
+                        <label for="your_name">Your name</label>
+                        <input type="text" id="your_name" name="yourname" placeholder="Click here">
+                    </div>
+                    <div id="form_dummy_2">
+                        <label for="your_email">Your email address</label>
+                        <input type="text" id="your_email" name="youremail" placeholder="Click here">
+                    </div>
+                    <div id="form_dummy_3">
+                        <label for="refer_type">How did you find us?</label>
+                        <select id="refer_type" name="refertype">
+                            <option value="searchengine">Search engine</option>
+                            <option value="afriend">A friend/coworker</option>
+                            <option value="socialmedia">Social media</option>
+                        </select>
+                    </div>
+                </div>    
+                <label for="your_message">Your message (500 characters max)</label>
+                <textarea type="text" id="your_message" name="yourmessage" placeholder="Click here" maxlength="500" wrap="soft" rows="5"></textarea>
+                <br>
+                <div id="send_container">
+                  <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+        <div class="app_video">
+            <video autoplay nocontrols muted loop width="100%"> <!-- Prevents rollover -->
+                <source src="video/frybrett_adv354_p2_xd_app_mobile_crop.mp4" type="video/mp4">
+            </video> 
+        </div>
+    </div>
+  </div>
+<!-- END OF SITE CONTENT -->
+<!-- FOOTER -->
+<footer>Open Source Software makes the LAMP stack possible. You can learn more about Open Source by clicking <a target="_blank" href="https://opensource.com/resources/what-open-source">here.</a></footer>
+</body>
+</html>
