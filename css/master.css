@@ -541,7 +541,7 @@ input[type=submit]:hover {
 #confirmation_page {
   display: grid;
   margin: 10%;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 10% 90%;
 }
 #confirmation_page_text p {
   font-family: 'Merriweather', serif;
