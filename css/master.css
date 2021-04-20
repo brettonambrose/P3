@@ -542,6 +542,8 @@ input[type=submit]:hover {
   display: grid;
   margin: 10%;
   grid-template-columns: 10% 90%;
+  grid-gap: 4rem;
+  align-content: center;
 }
 #confirmation_page_text p {
   font-family: 'Merriweather', serif;
