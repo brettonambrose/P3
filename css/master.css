@@ -539,21 +539,22 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 #confirmation_page {
+  display: grid;
   margin: 10%;
+  grid-template-columns: 20% 80%;
 }
-#confirmation_page p {
+#confirmation_page_text p {
   font-family: 'Merriweather', serif;
   color: var(--navy);
   font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.7rem;
+  font-size: 1.5rem;
 }
-#confirmation_page a {
+#confirmation_page_text a {
   text-decoration: none;
   font-weight: 700;
   color: var(--purple);
 }
-#confirmation_page a:hover {
+#confirmation_page_text a:hover {
   color: var(--blue);
   transition: 0.5s ease-in-out;
 }
